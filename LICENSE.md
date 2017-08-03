@@ -1,4 +1,4 @@
-DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+# DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
         Version 2, December 2004
 
 Copyright (C) 2017 Pruvost Maxime <contact@pruvostmaxime.fr>
@@ -14,7 +14,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 ___________________________________________________________
 
-LICENCE PUBLIQUE RIEN À BRANLER
+# LICENCE PUBLIQUE RIEN À BRANLER
       Version 1, mars 2009
 
 Copyright (C) 2017 Pruvost Maxime
