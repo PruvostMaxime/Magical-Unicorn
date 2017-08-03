@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+     -\-
+    \-- \-
+     \  - -\
+      \      \\
+       \       \
+        \       \\
+         \        \\
+         \          \\
+         \           \\\
+          \            \\
+           \            \\
+           \. .          \\
+            \    .       \\
+             \      .    \\
+              \       .  \\
+              \         . \\
+              \            <=)
+              \            <==)
+              \            <=)
+               \           .\\                                           _-
+               \         .   \\                                        _-//
+               \       .     \\                                     _-_/ /
+               \ . . .        \\                                 _--_/ _/
+                \              \\                              _- _/ _/
+                \               \\                      ___-(O) _/ _/
+                \                \                  __--  __   /_ /
+                \                 \\          ____--__----  /    \_
+                 \                  \\       -------       /   \_  \_
+                  \                   \                  //   // \__ \_
+                   \                   \\              //   //      \_ \_
+                    \                   \\          ///   //          \__-
+                    \                -   \\/////////    //
+                    \            -         \_         //
+                    /        -                      //
+                   /     -                       ///
+                  /   -                       //
+             __--/                         ///
+  __________/                            // |
+//-_________      ___                ////  |
+        ____\__--/                /////    |
+   -----______    -/---________////        |
+     _______/  --/    \                   |
+   /_________-/       \                   |
+  //                  \                   /
+                       \.                 /
+                       \     .            /
+                        \       .        /
+                       \\           .    /
+                        \                /
+                        \              __|
+                        \              ==/
+                        /              //
+                        /          .  //
+                        /   .  .    //
+                       /.           /
+                      /            //
+                      /           /
+                     /          //
+                    /         //
+                 --/         /
+                /          //
+            ////         //
+         ///_________////
+       -->
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The magical Unicorn</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+          <img class="logo" alt="Brand" src="img/rainbow.png"><img class="logo" alt="Brand" src="img/rainbowflip.png">
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav">
+    <li>THE MAGICAL UNICORN</li>
+  </ul>
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<h1 id="hello" class="title"> Hello ! Je suis la licorne magique ! </h1>
+
+
+  <div id="Random">
+    <input class="underUnicorn" v-model="name" placeholder="Change mon nom !"><p class="underUnicorn">Mon nom :</p></input>
+    <div id="magique" v-bind:style="answerImg">
+      <p>
+        Pose moi ta question et j'y repondrai ! </p><br />
+        <input class="AMA" v-model="question">
+        <div id="unicorn">
+          <p class="answer"> {{ name }} la licorne dit : </p><p class="response"> {{ answer }}</p>
+      </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/javascript.js"></script>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

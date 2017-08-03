@@ -1,0 +1,95 @@
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    font-size: 25px;
+    margin: 6px 0 0 0;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+ .logo {
+   height: 30px;
+   width: 30px;
+   margin: 20px 0 0 0;
+ }
+
+body {
+  background-image: url(../img/background.jpg);
+ }
+
+h1 {
+  animation: rainbow 0.7s infinite;
+  text-align: center;
+}
+
+#Random {
+  height: 350px;
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-image: url(../img/licorne.png);
+  background-color: white;
+  background-position: right;
+  background-repeat: no-repeat;
+
+}
+
+#magique {
+  height: 340px;
+  width: 50%;
+  background-color: pink;
+  border: 3px solid black;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.response {
+  color: red;
+  font-size: 25px;
+}
+
+.AMA {
+  border-radius: 15px;
+}
+
+.MAGIC8BALL {
+  background-color: white;
+  height: 220px;
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+.underUnicorn {
+  float: right;
+}
+
+.answer {
+  font-size: 35px;
+  color: green;
+}
+
+
+
+
+
+
+
+ /*RAINBOW TEXT */
+ @keyframes rainbow{
+ 	20%{color: red;}
+ 	40%{color: yellow;}
+ 	60%{color: green;}
+ 	80%{color: blue;}
+ 	100%{color: orange;}
+ }
