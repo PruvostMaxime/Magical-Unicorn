@@ -14,4 +14,4 @@ WTFPL seulement.
 
 # 4 - Ou l'essayer?
 
-http://www.pruvostmaxime.fr/licorne
+Allez sur http://www.pruvostmaxime.fr/licorne et amusez vous !
