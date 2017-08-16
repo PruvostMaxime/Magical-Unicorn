@@ -13,18 +13,13 @@
     font-family: 'Zilla Slab Highlight', cursive;
 }
 
- .logo {
-   height: 30px;
-   width: 30px;
-   margin: 20px 0 0 0;
- }
-
 body {
   background-image: url(../img/background.jpg);
+
  }
 
 h1 {
-  animation: rainbow 0.7s infinite;
+  animation: rainbow 1.7s infinite;
   text-align: center;
 }
 
@@ -78,11 +73,6 @@ h1 {
   font-size: 35px;
   color: green;
 }
-
-
-
-
-
 
 
  /*RAINBOW TEXT */
